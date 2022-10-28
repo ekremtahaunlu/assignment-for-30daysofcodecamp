@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interest Survey form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body style="font-family: 'Comic Neue', cursive;">
+  <form>
+    <label for="fname" id="name">Enter your name:</label>
+    <input type="text"><br><br>
+    <label for="dpt" id="department">Enter your department:</label>
+    <input type="text"><br><br>
+    <label for="bio" id="about">Tell us a little about yourself:</label>
+    <textarea name="textarea"></textarea><br><br>
+    <label for="yesorno" id="yesno">Do you exercise at home?</label>
+    <input type="radio" id="Yes" name="yesno" value="Yes">Yes
+    <input type="radio" id="No" name="yesno" value="No">No<br><br>
+    <label for="check" id="check">How do you like to read about your favorite topics?</label><br><br>
+    <input type="checkbox" id="Books" name="Books" value="Books">Books
+    <input type="checkbox" id="Online resources" name="Online resources" value="Online resources">Online resources
+    <input type="checkbox" id="Phone apps" name="Phone apps" value="Phone apps">Phone apps
+    <input type="checkbox" id="Magazines" name="Magazines" value="Magazines">Magazines<br><br>
+    <label for="dropdown" id="movie">What genre of movies do you like?</label>
+    <select id="movies" name="movies">
+      <option value="comedy">comedy</option>
+      <option value="horror">horror</option>
+      <option value="action">action</option>
+      <option value="sci-fi">sci-fi</option>
+    </select><br><br>
+    <input type="submit" value="Submit form"><br><br>
+  </form>
+</body>
+</html>
